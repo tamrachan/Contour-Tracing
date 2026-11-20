@@ -1,0 +1,1 @@
+"""Helpers SAM-CREPE needs from the rest of the project, copied here so SAM-CREPE runs from its own folder."""
