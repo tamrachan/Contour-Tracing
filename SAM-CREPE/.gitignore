@@ -1,0 +1,18 @@
+# Python environment (made from requirements.txt) and Python's caches
+.venv/
+__pycache__/
+*.pyc
+
+# Recordings: each .wav and its Raven selection table. The folder stays (.gitkeep), its contents don't
+recordings/*
+!recordings/.gitkeep
+
+# Made by the scripts
+# the development set's model outputs
+inputs/
+# prepare_inputs.py: cut windows, CREPE scores, Colab maps, upload zip
+inputs_*/
+# get_fragments.py, run.py, figures.py
+outputs/
+# the Colab download, if saved in this folder
+conf_maps_*.zip
